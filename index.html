@@ -3,24 +3,33 @@
 
 <head>
     <style>
-        body {
-            background-color: powderblue;
+        @font-face {
+            font-family: Computer Modern;
+            src: url('fonts/cmunorm.ttf');
+            font-family: Computer Modern Alt;
+            src: url('fonts/cmunrm.ttf');
         }
 
-        h1 {
-            color: blue;
+        #section {
+            font-family: Computer Modern, monospace;
+            font-size: 26px;
         }
 
-        p {
-            color: red;
+        #section_alt {
+            font-family: Computer Modern Alt, monospace;
+            font-size: 26px;
         }
     </style>
 </head>
 
 <body>
-
-    <h1>This is a heading</h1>
-    <p>This is a paragraph.</p>
+    Hello World.
+    <div id="section">
+        Hello World - now with formatting.
+    </div>
+    <div id="section_alt">
+        Hello World - now with alternative formatting!
+    </div>
 
 </body>
 
